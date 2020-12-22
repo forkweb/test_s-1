@@ -26,28 +26,7 @@ let router = new Router({
       meta: {layout: "main", login: true},
       component: TaskBoard,
       props: true
-    },
-    // {
-    //   path: '/create',
-    //   name: 'create',
-    //   meta: {layout: "main", login: true},
-    //   component: TaskCreate,
-    //   props: true
-    // },
-    // {
-    //   path: '/list',
-    //   name: 'list',
-    //   meta: {layout: "main", login: true},
-    //   component: TaskList,
-    //   props: true
-    // },
-    // {
-    //   path: '/task/:id',
-    //   name: 'task',
-    //   meta: {layout: "main", login: true},
-    //   component: Task,
-    //   props: true
-    // }
+    }
   ]
 
 })
