@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import LogIn from '../components/LogIn'
-// import TaskBoard from '../components/TaskBoard'
+import TaskBoard from '../components/Board'
 // import TaskCreate from '../components/TaskCreate'
 // import TaskList from '../components/TaskList'
 // import Task from '../components/Task'
@@ -20,13 +20,13 @@ let router = new Router({
       meta: {layout: "empty"},
       component: LogIn
     },
-    // {
-    //   path: '/board',
-    //   name: 'board',
-    //   meta: {layout: "main", login: true},
-    //   component: TaskBoard,
-    //   props: true
-    // },
+    {
+      path: '/board',
+      name: 'board',
+      meta: {layout: "main", login: true},
+      component: TaskBoard,
+      props: true
+    },
     // {
     //   path: '/create',
     //   name: 'create',

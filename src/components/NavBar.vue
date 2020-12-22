@@ -10,8 +10,6 @@
               data-target="dropdown"
               ref="dropdown"
           >
-            USER NAME
-            <i class="material-icons right">arrow_drop_down</i>
           </a>
 
           <ul id='dropdown' class='dropdown-content'>
@@ -25,7 +23,7 @@
         </li>
       </ul>
       <ul class="right hide-on-med-and-down">
-        <router-link
+        <!-- <router-link
           tag="li"
           to="/create"
           exact
@@ -39,7 +37,7 @@
           active-class="active"
         >
           <a href="#">Список задач</a>
-        </router-link>
+        </router-link> -->
       </ul>
     </div>
   </nav>
